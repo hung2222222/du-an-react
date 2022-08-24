@@ -1,0 +1,22 @@
+.section {
+  max-width: 60rem;
+  width: 65%;
+  margin: 2rem auto;
+  /* tạo from hoạt ảnh nổi  */
+  animation: section-appear 1s ease-out forwards;
+}
+.section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@keyframes section-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
