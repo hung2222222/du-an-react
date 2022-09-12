@@ -1,0 +1,26 @@
+
+[class*="col-s-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+.box{margin-top: -1.5%;}
+  @media only screen and (min-width: 768px) {
+    /* For tablets: */
+    
+    .absolute{color:blueviolet}
+    .miu{width: 100%;}
+   .margin2{display: none;}
+  .menu{background-color: lightpink;}
+   .sử p{
+     text-indent: 1.5em;
+     margin-left: 5%;
+     margin-right: 3%;
+     font-family: 'Lora', serif;
+  }
+  .img1{padding-top: 2.3px;}
+  .khung {background-color: rgb(140, 145, 135);
+  }
+.main{width: auto;}
+
+  }

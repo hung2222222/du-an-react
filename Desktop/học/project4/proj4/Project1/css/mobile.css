@@ -1,0 +1,8 @@
+@media only screen and (max-width: 767px) {
+    iframe{
+        width: 100%;
+        height: 50vw;
+    }
+
+.images{height: 300px;}
+}

@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+} 
+body{
+  font-family: 'Roboto Slab', serif;
+
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+.absolute{position: absolute;
+  color:rgb(12, 102, 182);
+  margin-left :60px;
+  margin-top :170px;
+  font-size: 150%;
+  }
+  .menu li{text-transform: uppercase;}
+  .sử p{
+    text-indent: 1.5em ;
+    margin: left 3%;
+    margin-right: 3%;
+ }
+  body{font-family: 'Lora', serif;}
+/* for mobile: */
+@media only screen and (max-width: 767px) {
+  img{margin-left: 1%;}
+  .margin1{display: none;}
+  .margin2{display: none;}
+  .absolute{
+    color: #0c3d5e;
+    margin-left :20%;
+    font-size: 150%;
+    position:static;
+  }
+  h4{text-align: center;}
+  .miu{display: none;}
+  .sử p{margin-left: 4%;}
+  .div itrame{height: 300px;}
+  .col-s {
+    width: 50%;
+    margin-left: 3%;}
+}
+.footer{color:rgb(31, 13, 128)}
+.menu{
+  background-color: rgb(204, 161, 19);
+  max-width: 100%;
+}
+.nav-item{
+  text-transform: uppercase;
+  color: rgb(83, 12, 110);
+}
+div> h2{
+    
+  text-align: center;
+}
